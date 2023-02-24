@@ -1,0 +1,380 @@
+.topD{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: .5px #128c7f solid;
+}
+.left{
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.cent{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+}
+.date{
+    padding: 10px;
+    margin: 10px;
+    width: 90%;
+    color: #128c7f;
+    font-weight: bold;
+    background: #BAE3DD;
+    border: none;
+    border-radius: 4px;
+}
+.right{
+    display: flex;
+    float: right;
+    width: 33.3%;
+    align-items: center;
+    justify-content: center;
+}
+.counts{
+    width: 170px;
+    height: 145px;
+    margin: 10px;
+    border: .5px #128C7F solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+}
+.counts h1{
+    font-size: 50px;
+}
+.counts h6{
+    font-weight: bold;
+    color: #333333;
+}
+.chats{
+    height:660px;
+    display: flex;
+    flex-direction: column;
+    overflow-Y:auto;
+    overflow-X:hidden;
+
+}
+.chatPrev{
+    background-color: rgb(37, 34, 34);
+    height: 750px;
+    border: 2px rgb(9, 134, 128) solid;
+    margin: 40px;
+    border-radius: 8px;
+    width: 80%;
+}
+.heading{
+}
+.Sender{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background: rgba(41, 63, 57, 0.417);
+    border-Radius: 6px;
+    align-self: flex-start;
+    max-width: 60%;
+
+}
+.User{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background: #008080;
+    
+    border-Radius: 6px;
+    align-self: flex-end;
+    max-width: 60%;
+}
+.System{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    float: none;
+    background: #dbee94;
+
+    border-Radius: 6px;
+    align-self: center;
+    max-width: 60%;
+}
+.insights{
+        display: flex;
+        flex-Direction: row;
+        
+        justify-content: center;
+        align-items: center;
+        padding:"20px";
+        width:100%;
+        
+     
+}
+h6{
+    color: rgb(184, 189, 186);
+}
+.downloadRep{
+    background: #BAE3DD;
+    padding-top: 50px;
+    height: 300px;
+    text-align: center;
+}
+.downloadRep h1{
+    margin-bottom: 30px;
+}
+.infos{
+    width: 50%;
+
+    
+}
+.infos h4{
+    margin-top: -8px;
+
+}
+.box{
+    width: 29%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+.col-9{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.resp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    background: #BAE3DD;
+    padding: 40px;
+    border-Radius:8px;
+}
+.pieContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.download{
+    cursor: pointer;
+    margin: 10px;
+    background: #128c7f;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    width: 230px;
+    font-size: 20px;
+}
+.preview{
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid #128c7f;
+    color: #128c7f;
+    width: 230px;
+    font-size: 20px;
+}
+.analytics{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* flex-wrap: wrap; */
+}
+.average{
+    width: 40%;
+    text-align: center;
+}
+.average h1{
+    color:#128c7f;
+}
+.barGraph{
+    width: 60%;
+
+    }
+.hide{
+    position: relative;
+    height: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    transform: translateY(-12px);
+}
+.hide2{
+    position: relative;
+    height: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    transform: translateY(-15.5px);
+}
+.payContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.name,.phone,.address,.city,.pincode,.email,.cardnum{
+    margin: 5px;
+    width: 80%;
+}
+.payment{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.payTitle, .price{
+    margin: 10px;
+}
+.payTitle{
+    font-weight: bold;
+}
+.price{
+
+    color: #128c7f;
+    font-weight: bold;
+    text-align: right;
+    
+    
+}
+.expiry,.cvv{
+    width: 40%;
+    margin: 12px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.checkout,.cancel{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 4px;
+}
+.checkout{
+    color: white;
+    background-color: #128c7f;
+}
+.cancel{
+    color: white;
+    background-color: rgb(184, 184, 184);
+}
+
+ol {list-style: none; counter-reset: li}
+ol li::before {content: counter(li); color:#128c7f;
+    
+    border: 2px #128c7f solid;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block; width: 30px;
+    text-align-last: center;
+    height: 30px;
+    /* transform: perspective(500px) translate3d(0,0,5px); */
+    margin-right: 20px;
+    /* z-index: 999; */
+    
+}
+ol li {counter-increment: li}
+/* .line{
+    content:' ';
+    position: absolute;
+    width: 4px;
+    left:;
+
+    transform: perspective(500px) translate3d(0,0,10px);
+    z-index: -999;
+    height: 470.1px;
+    background-color: #128c7f;
+    
+    
+} */
+
+@media screen and (max-width: 480px) {
+    .chats{
+    }
+    .chatPrev{
+        margin: 20px;
+        width: 100%;
+        
+    }
+    .resp{
+
+    }
+    .infos{
+        width: 100%;
+    }
+    .User{
+
+    }
+    .average{
+        width: 100%;
+    }
+    .barGraph{
+        width: 95%;
+    }
+    .pieContainer{
+        width: 95%;
+    }
+    .downloadRep{
+        height: 400px;
+    }
+    .box{
+        width: 100%;
+    }
+    .left, .right, .cent{
+        width: 100%;
+    }
+    .download,.preview{
+        width: 230px;
+    }
+    .resp{
+        width: 100%;
+    }
+    .downloadRep h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .cardDetails{
+        width: auto;
+    }
+    .name,.phone,.address,.city,.pincode,.email,.cardnum{
+        margin: 5px;
+        width: 75vw;
+    }
+}
